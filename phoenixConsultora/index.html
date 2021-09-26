@@ -1,0 +1,179 @@
+<!--Sitio realizado por github: Matías Gabriel Blanco Toledo-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Phoenix Consultora</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Montserrat:wght@300&family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/ico" href="favicon.ico">
+</head>
+
+<body>
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link activo" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienesSomos.html">Quiénes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="institucional.html">Institucional</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nuestros servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="gestion.html">Gestión de redes sociales</a></li>
+                  <li><a class="dropdown-item" href="posicionamiento.html">Posicionamiento en motores<br>de búsqueda</a></li>
+                  <li><a class="dropdown-item" href="diseño.html">Diseño de piezas gráficas<br>y digitales</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Fin de la barra de navegación-->
+
+    <main class="flex-shrink-0">
+        <!--Barra logo-->
+        <header>
+          <div id="barra" class="container-fluid pt-3 pb-3 shadow">
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col text-center text-sm-start text-break">
+                  <a href="index.html" class="noEstilo"><h1 class="nombre my-auto">Phoenix Consultora</h1></a>
+                </div>
+                <div class="col text-center text-sm-end my-auto">
+                    <a href="index.html"><img src="imagenes/logo.svg" alt="" width="75" height="75" class="img-fluid"></a>
+                </div>
+            </div>
+          </div>
+        </header>
+        <!--Fin de la barra logo-->
+
+        <!--Portada video-->
+        <section>
+          <div class="pantallaCompleta d-flex">
+              <video id="video" src="videoPortada.mp4" autoplay muted></video>
+              <div id="imgPortada" class="text-center container-fluid d-none">
+                  <img src="imagenes/notflixLogo.png" alt="" class="col-12 col-sm-6">
+                  <h1 class="socios fw-bold">Calidad</h1>
+                  <h2 class="socios2 h1 fw-bold">Somos los principales socios de Notflix</h2>
+              </div>
+          </div>
+        </section>
+        <!--Fin de la portada video-->
+
+        <!--Segunda portada-->
+        <section class="d-none d-md-block">
+          <div class="portada p-5 text-break">
+            <h2 class="h1 animado "><b>Sabiduría y confianza</b></h2>
+            <p class="h2 animado"><b>Potenciamos y construimos tu marca juntos</b></p>
+          </div>
+        </section>
+
+        <section class="d-block d-md-none">
+          <div class="portada2 p-5 text-break">
+            <h2 class="h1 animado text-center fs-1 textoPortada2"><b>Sabiduría y confianza</b></h2>
+            <p class="h2 animado text-center fs-3"><b>Potenciamos y construimos tu marca juntos</b></p>
+          </div>
+        </section>
+        <!--Fin de la segunda portada-->
+
+        <!--Cajas-->
+        <section>
+          <div class="caja animado col-12 col-md-8 mx-auto p-5 mt-4 text-center text-sm-start text-break">
+            <h2 class="mt-3 fs-1">Llevamos la comunicación de tu empresa al máximo.-</h2>
+            <p class="mt-0 fs-4">En Phoenix estamos decididos a lograr que superes todas tus metas.</p>
+          </div>
+          <div class="caja animado col-12 col-md-8 mx-auto p-5 mt-4 text-center text-sm-end text-break">
+            <h2 class="mt-4 fs-1">¿Nuestra meta? ¡la innovación!</h2>
+            <p class="mt-0 fs-4">La ave mitológica Phoenix simboliza renovación e innovación. Estos son nuestros principales conceptos a tener en cuenta para mejorar la comunicación y la imagen de tu empresa.</p>
+          </div>
+        </section>
+        <!--Fin de las cajas-->
+
+        <!--Triple caja-->
+        <section>
+          <div class="row row-cols-1 row-cols-md-3 container-fluid mt-4 text-break mx-auto">
+            <div class="tipoCaja1 p-4 contenedorBotones">
+              <h2 class="mt-3">Nosotros</h2>
+              <p class="fst-italic mt-2 mt-md-4">Somos un equipo nuevo formado por cinco personas desarrolladas y especializadas en diversos sectores tales como el diseño gráfico, las relaciones públicas, las ciencias sociales, el marketing digital y la programación.</p>
+              <div class="mt-auto">
+                <a href="quienesSomos.html" class="linkTriCajas mt-auto">Leer más >></a>
+              </div>
+            </div>
+
+            <div class="tipoCaja2 p-4 contenedorBotones">
+              <h2 class="mt-3">Nuestra visión</h2>
+              <p class="fst-italic mt-2 mt-md-4">Buscamos ser destacados como consultora de calidad y confianza siendo muy recomendada por nuestros clientes gracias a la profesionalidad de nuestro trabajo y nuestros servicios innovadores, además de mantener una relación de trabajo sana con las empresas con las que trabajamos.</p>
+              <div class="mt-auto">
+                <a href="institucional.html" class="linkTriCajas mt-auto">Leer más >></a>
+              </div>
+            </div>
+            
+            <div class="tipoCaja1 p-4 contenedorBotones">
+              <h2 class="mt-3">Servicios</h2>
+              <p class="fst-italic mt-2 mt-md-4">En Phoenix contamos con diversos servicios tales como:</p>
+              <ul class="fst-italic">
+                <li>Gestión de redes sociales</li>
+                <li>Posicionamiento en motores de búsqueda</li>
+                <li>Diseño de piezas gráficas y digitales</li>
+              </ul>
+              <div class="mt-auto">
+                <a href="nuestrosServicios.html" class="linkTriCajas">Leer más >></a>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <!--Fin de la triple caja-->
+    </main>
+
+    <!--Pie de página-->
+    <footer class="pie mt-4">
+      <div class="text-center text-break">
+        &copy; Phoenix Consultora - Matías Gabriel Blanco Toledo
+      </div>
+      <div class="row">
+        <div class="text-center mt-2">
+          <a href="https://www.facebook.com/Phoenix-Consultora-110734763986392/"><img src="imagenes/face.png" alt="" width="25" height="25" class="me-2"></a>
+          <a href="https://www.instagram.com/phoenix_consultora/"><img src="imagenes/insta.png" alt="" width="25" height="25" class="me-2"></a>
+          <a href="https://www.linkedin.com/in/phoenix-consultora-bb39771aa/"><img src="imagenes/li.png" alt="" width="25" height="25"></a>
+        </div>
+
+        <div class="text-center mt-2 text-break">
+          <a href="index.html" class="linkPie mx-2 activo">Inicio</a>
+          <a href="quienesSomos.html" class="linkPie mx-2">Quiénes somos</a>
+          <a href="institucional.html" class="linkPie mx-2">Institucional</a>
+          <a href="nuestrosServicios.html" class="linkPie mx-2">Nuestros servicios</a>
+          <a href="contacto.html" class="linkPie mx-2">Contacto</a>
+        </div>
+      </div>
+    </footer>
+    <!--Fin del pie de página-->
+    
+
+    <!-- Scripts -->
+    <script src="js/myscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- Scripts -->
+</body>
+</html>
